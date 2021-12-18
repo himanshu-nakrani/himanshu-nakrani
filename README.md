@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @himanshu-nakrani
-- 👀 I’m interested in coding and electronics
-- 🌱 I’m currently learning \\
-- 
+- 👀 I’m interested in coding.
+- 🌱 I’m currently learning and exploring.
 
 
 <!---
