@@ -2,11 +2,11 @@
     <div align=center>
         <img src="https://raw.githubusercontent.com/AhmedFathyDev/AhmedFathyDev/main/GitHub.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="200">
     </div>
-<h1 align="center">Hi 👋, I'm mahmoud</h1>
+<h1 align="center">Hi 👋, I'm Himanshu</h1>
 
 
 
-<h3 align="center">A passionate Machine learning developer from Egypt</h3>
+<h3 align="center">A passionate Machine learning developer from India</h3>
 
 
 
@@ -24,9 +24,6 @@
 ##  My Bio:
 <!--  <img align="right" height="250" width="375" alt="" src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/coder.gif" /> -->
  
-- 🌱 I’m currently having an apprenticeship with Amit Learning [AmitLearnigTasks](https://github.com/abou-zithar/AMIT.Machine.learning)
-
-- 💬 Ask me about **Machine learning algorthims**
 
 - 📫 How to reach me **mahmoudabouzit@gmail.com**
 
