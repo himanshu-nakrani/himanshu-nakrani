@@ -2,7 +2,7 @@
     <div align=center>
         <img src="https://raw.githubusercontent.com/AhmedFathyDev/AhmedFathyDev/main/GitHub.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="200">
     </div>
-<h1 align="center">Hi 👋, I'm Himanshu</h1>
+<h1 align="center">Hi 👋, I'm Himanshu.</h1>
 
 
 
