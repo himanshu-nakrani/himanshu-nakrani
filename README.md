@@ -6,9 +6,6 @@
 
 
 
-<h3 align="center">A passionate Machine learning developer from India</h3>
-
-
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=himanshu-nakrani&show_icons=true&locale=en&layout=compact" alt="himanshu-nakrani" /></p>
 
