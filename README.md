@@ -16,7 +16,7 @@
 
 
 
-# 📉 Activity Stats:
-<div align="center">
-	<img src="https://cdn.jsdelivr.net/gh/holic-x/holic-x/assets/github-contribution-grid-snake.svg"/>
-</div>
+# Markdown
+
+![](./kaggle-badges/CompetitionsRank/plastic-black.svg)
+![](./kaggle-plates/Competitions/white.svg)
