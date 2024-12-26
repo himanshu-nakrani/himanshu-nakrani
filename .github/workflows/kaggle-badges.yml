@@ -1,0 +1,8 @@
+            - name: Kaggle Badges
+  # You may pin to the exact commit or the version.
+  # uses: spider-man-tm/kaggle-badges@80cb39a3cb2c51747aec319c0dc0d62384d10adb
+  uses: spider-man-tm/kaggle-badges@v1.2.6
+  with:
+    # The Kaggle username to generate badges for
+    user_name: himanshunakrani
+          
