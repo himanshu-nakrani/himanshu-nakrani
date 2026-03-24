@@ -68,6 +68,16 @@
 
 ---
 
+## � GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=true&theme=default&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=himanshu-nakrani&theme=default&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu-nakrani&layout=compact&theme=default&hide_border=true)
+
+---
+
 ## 📬 Let's Connect
 
 Interested in AI/ML collaboration, research, or just building interesting things? Find me on GitHub or reach out through my portfolio.
