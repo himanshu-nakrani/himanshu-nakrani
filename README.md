@@ -28,12 +28,6 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=himanshu-nakrani" alt="GitHub streak stats for himanshu-nakrani" />
 </div>
 
-## Kaggle highlights
-
-<div align="center">
-  <img src="./kaggle-badges/CompetitionsRank/plastic-black.svg" alt="Kaggle competitions rank badge" />
-  <img src="./kaggle-plates/Competitions/white.svg" alt="Kaggle competitions plate" />
-</div>
 
 ## Let's connect
 
