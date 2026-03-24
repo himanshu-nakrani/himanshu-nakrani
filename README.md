@@ -1,34 +1,73 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/AhmedFathyDev/AhmedFathyDev/main/GitHub.png" alt="GitHub Octocat Drinking a Cup of Coffee" height="180" />
+# Hi 👋, I'm Himanshu Nakrani
 
-  <h1>Hi 👋, I'm Himanshu Nakrani</h1>
-  <p>
-    Curious builder focused on learning, experimenting, and shipping better software.
-  </p>
-</div>
+**AI Software Developer** at State Street Corporation — building LLM-powered systems for financial data.
 
-## About me
+---
 
-- 🌱 I enjoy exploring new tools, technologies, and practical software workflows.
-- 💡 I like turning ideas into projects that are simple, useful, and well documented.
-- 📈 I'm continuously improving my development skills through hands-on practice.
-- 🤝 I value collaboration, clean communication, and steady growth as an engineer.
+## About Me
 
-## GitHub snapshot
+- 🤖 I build production AI systems: Text-to-SQL, RAG pipelines, LLM fine-tuning, and AI agents
+- 🏦 Currently working on enterprise-scale NLP tools serving 100+ internal users
+- 📝 Published researcher in Graph-of-Thoughts reasoning for Text-to-SQL (IEEE FLLM 2025)
+- 🌱 Always exploring new tools, frameworks, and practical ML workflows
+- 🤝 Open to collaboration on AI/ML projects and open-source contributions
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=true&locale=en" alt="GitHub stats for himanshu-nakrani" />
-</div>
+---
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=himanshu-nakrani&show_icons=true&locale=en&layout=compact" alt="Top languages used by himanshu-nakrani" />
-</div>
+## �️ Tech Stack
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=himanshu-nakrani" alt="GitHub streak stats for himanshu-nakrani" />
-</div>
+**AI / ML:** LLMs · RAG · Fine-tuning · LoRA/PEFT · Prompt Engineering · LangChain · Google ADK · AI Agents · OpenAI API
 
+**Backend:** FastAPI · ASP.NET Core · REST APIs · SQLAlchemy · Microservices
 
-## Let's connect
+**Languages:** Python · Java · SQL · C/C++ · C# · TypeScript · Shell/Perl
 
-If you're interested in collaboration, shared learning, or building interesting things together, feel free to connect through GitHub.
+**Cloud & DevOps:** Azure · AWS · OCI · Databricks · Azure OpenAI Studio · CI/CD
+
+**Databases:** PostgreSQL · pgvector · SQLite · Vector DBs · Semantic Search
+
+**ML / Deep Learning:** CNNs · LSTM · XGBoost · Random Forest · Computer Vision · Model Deployment
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description | Status |
+|---|---|---|
+| 🤖 **Alpha Copilot** | Enterprise LLM Text-to-SQL chatbot over structured financial data (100+ users) | Production |
+| 🔧 **Agent Forge** | No-code AI agent builder with real-time trace monitoring and evaluation dashboards | In Progress |
+| 💼 **WealthAI** | Real-time portfolio narrative generation from optimizer outputs | Production |
+| 📄 **Fund Prospectus RAG** | RAG system for extracting insights from fund prospectuses using OpenAI + pgvector | Production |
+| 🛡️ [**Intrusion Detection System**](https://github.com/himanshu-nakrani/Intrusion-Detection-System) | ML-based network intrusion detection on KDD Cup 1999 (4.9M records), 94% accuracy | — |
+| ₿ [**Crypto Price Prediction**](https://github.com/himanshu-nakrani/Cryptocurrency-Price-Prediction) | LSTM-based daily-updated forecasting with 18% RMSE reduction via walk-forward validation | — |
+
+---
+
+## 📄 Publications
+
+- **GoT4SQL-DA: A Graph-of-Thoughts Framework for Scalable Text-to-SQL Data Augmentation** — [IEEE FLLM 2025](https://ieeexplore.ieee.org/abstract/document/11391068)
+- **GRAFT: Graph-of-Thoughts based Reasoning and Augmentation for Finetuning Text-to-SQL** — CSCI 2025
+
+---
+
+## 🏅 Certifications
+
+- ☁️ Oracle Cloud Infrastructure Certified Generative AI Professional
+- 🤖 Amazon Machine Learning Summer School 2022
+- ☁️ AWS Machine Learning Foundations — Udacity
+- 🧠 Generative AI Fundamentals — Databricks
+- 🏦 Goldman Sachs Engineering Virtual Program
+
+---
+
+## 📊 Kaggle Highlights
+
+- 🥈 [Bitcoin Price Prediction (Updated Daily)](https://www.kaggle.com/code/himanshunakrani/bitcoin-price-prediction-updated-daily) — 154 votes
+- 🥈 [Iris Dataset](https://www.kaggle.com/datasets/himanshunakrani/iris-dataset) — 383 votes
+- 🥈 [Student Study Hours Dataset](https://www.kaggle.com/datasets/himanshunakrani/student-study-hours) — 261 votes
+
+---
+
+## 📬 Let's Connect
+
+Interested in AI/ML collaboration, research, or just building interesting things? Find me on GitHub or reach out through my portfolio.
