@@ -14,7 +14,7 @@
 
 ---
 
-## �️ Tech Stack
+## 🛠️ Tech Stack
 
 **AI / ML:** LLMs · RAG · Fine-tuning · LoRA/PEFT · Prompt Engineering · LangChain · Google ADK · AI Agents · OpenAI API
 
@@ -68,7 +68,7 @@
 
 ---
 
-## � GitHub Stats
+## 📈 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=true&theme=default&hide_border=true)
 
