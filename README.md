@@ -12,10 +12,10 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=true&theme=moltack&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=true&theme=nightowl&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=himanshu-nakrani&theme=moltack&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=himanshu-nakrani&theme=nightowl&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu-nakrani&layout=compact&theme=moltack&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu-nakrani&layout=compact&theme=nightowl&hide_border=true)
 
 ---
