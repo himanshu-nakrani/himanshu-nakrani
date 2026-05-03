@@ -11,11 +11,13 @@
 ---
 
 ## 📈 GitHub Stats
+![](https://github-readme-stats.shion.dev/api?username=himanshu-nakrani&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=himanshu-nakrani&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=himanshu-nakrani&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=false&theme=gruvbox_light&hide_border=false)
+---
+[![](https://komarev.com/ghpvc/?username=himanshu-nakrani&icon=0&color=0)](https://visitcount.itsvg.in)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=himanshu-nakrani&theme=gruvbox_light&hide_border=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=himanshu-nakrani&layout=compact&theme=gruvbox_light&hide_border=false)
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
 ---
