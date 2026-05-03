@@ -12,7 +12,7 @@
 
 ## 📈 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=true&theme=gruvbox_light&hide_border=false)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=himanshu-nakrani&show_icons=false&theme=gruvbox_light&hide_border=false)
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=himanshu-nakrani&theme=gruvbox_light&hide_border=false)
 
