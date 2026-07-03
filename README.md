@@ -1,8 +1,8 @@
 ---
-## 📈 GitHub Stats
-<p align="center">
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=himanshu-nakrani&theme=tokyonight" />
-</p>
+## GitHub Activity
+
+![GitHub Contribution Graph](https://gitlyy.vercel.app/api/contribution?username=himanshu-nakrani&hide_border=true)
+
 ---
 <div align="center">
   <a href="https://commit-history.com/himanshu-nakrani">
