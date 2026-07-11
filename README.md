@@ -48,6 +48,22 @@
   <sub><samp>†</samp> read jupyter’s share with care: <samp>.ipynb</samp> files embed cell outputs alongside code, so bytes overstate what was written</sub>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg" width="880" alt="A 24-bar histogram of commit times in IST plotted noon to noon: bars climb through the evening into a night block holding 61% of commits between 22:00 and 05:00, peaking at 178 commits at 02:00, then collapse into a near-empty morning trough — 20 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 319 commits; 36% of commits land on weekends.">
+  </picture>
+</p>
+
+<p align="center">
+  <sub><samp>fig. 4</samp> — when the work happens: commits by hour, ist (utc+5:30), plotted noon → noon · n = 1,434 · 41 repos · jul ’25 → jul ’26 — 61% of commits land between 22:00 and 05:00 and peak at 02:00; the day job keeps 09:00–19:00 at 26%; weekends carry 36%, sundays most of all — the ramp in <samp>fig. 2</samp> was built at night</sub>
+</p>
+
+<p align="center">
+  <sub>all figures are hand-written svg, light &amp; dark, plotted from primary sources — no generators</sub>
+</p>
+
 ---
 
 <sub>State Street · India · [himanshunakrani.me](https://himanshunakrani.me) · [himanshunakrani0@gmail.com](mailto:himanshunakrani0@gmail.com)</sub>
