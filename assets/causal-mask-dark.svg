@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 258" width="880" height="258" role="img" aria-labelledby="t">
+  <title id="t">A 10-by-10 causal attention matrix fills in row by row: lower-triangular cells hold weights, upper-triangle cells stay empty at minus infinity. Annotated with the masked softmax formula and the mask definition.</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .txt  { fill: #95a0ac; }
+    .txa  { fill: #d29922; }
+    .ink  { stroke: #8b949e; }
+    .tick { stroke: #d29922; }
+    .cellb { fill: #7d97ee; }
+    .cella { fill: #d29922; }
+    .fade { opacity: 0; animation: fadein 0.8s cubic-bezier(0.33,0,0.2,1) forwards; }
+    .d0 { animation-delay: 0.05s; }
+    .r0 { animation-delay: 0.35s; }
+    .r1 { animation-delay: 0.55s; }
+    .r2 { animation-delay: 0.75s; }
+    .r3 { animation-delay: 0.95s; }
+    .r4 { animation-delay: 1.15s; }
+    .r5 { animation-delay: 1.35s; }
+    .r6 { animation-delay: 1.55s; }
+    .r7 { animation-delay: 1.75s; }
+    .r8 { animation-delay: 1.95s; }
+    .r9 { animation-delay: 2.15s; }
+    .s0 { animation-delay: 2.7s; }
+    .s1 { animation-delay: 3.0s; }
+    .s2 { animation-delay: 3.3s; }
+    .s3 { animation-delay: 3.8s; }
+    .s4 { animation-delay: 4.4s; }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .fade { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <!-- frame + axis labels -->
+  <g class="fade d0">
+    <rect x="182" y="42" width="195" height="195" rx="2" class="ink" fill="none" stroke-width="0.75" opacity="0.5"/>
+    <text class="txt" x="182" y="32" font-size="11" letter-spacing="2" opacity="0.9">keys &#8594;</text>
+    <text class="txt" x="162" y="139.5" font-size="11" letter-spacing="2" opacity="0.9" text-anchor="middle" transform="rotate(90 162 139.5)">queries &#8594;</text>
+  </g>
+
+  <!-- the mask, applied row by row -->
+  <g class="fade r0">
+    <rect x="186" y="46" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="205" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="224" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="243" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="262" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="281" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="300" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="319" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="46" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r1">
+    <rect x="186" y="65" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.58"/>
+    <rect x="205" y="65" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="224" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="243" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="262" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="281" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="300" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="319" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="65" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r2">
+    <rect x="186" y="84" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.51"/>
+    <rect x="205" y="84" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.57"/>
+    <rect x="224" y="84" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="243" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="262" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="281" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="300" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="319" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="84" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r3">
+    <rect x="186" y="103" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.53"/>
+    <rect x="205" y="103" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.37"/>
+    <rect x="224" y="103" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.52"/>
+    <rect x="243" y="103" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="262" y="103" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="281" y="103" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="300" y="103" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="319" y="103" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="103" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="103" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r4">
+    <rect x="186" y="122" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.56"/>
+    <rect x="205" y="122" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.22"/>
+    <rect x="224" y="122" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.27"/>
+    <rect x="243" y="122" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.57"/>
+    <rect x="262" y="122" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="281" y="122" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="300" y="122" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="319" y="122" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="122" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="122" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r5">
+    <rect x="186" y="141" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.54"/>
+    <rect x="205" y="141" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.13"/>
+    <rect x="224" y="141" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.21"/>
+    <rect x="243" y="141" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.28"/>
+    <rect x="262" y="141" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.57"/>
+    <rect x="281" y="141" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="300" y="141" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="319" y="141" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="141" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="141" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r6">
+    <rect x="186" y="160" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.52"/>
+    <rect x="205" y="160" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.11"/>
+    <rect x="224" y="160" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.15"/>
+    <rect x="243" y="160" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.22"/>
+    <rect x="262" y="160" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.31"/>
+    <rect x="281" y="160" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.58"/>
+    <rect x="300" y="160" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="319" y="160" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="338" y="160" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="160" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r7">
+    <rect x="186" y="179" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.55"/>
+    <rect x="205" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.1"/>
+    <rect x="224" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.12"/>
+    <rect x="243" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.17"/>
+    <rect x="262" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.24"/>
+    <rect x="281" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.33"/>
+    <rect x="300" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.56"/>
+    <rect x="319" y="179" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="338" y="179" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+    <rect x="357" y="179" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r8">
+    <rect x="186" y="198" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.53"/>
+    <rect x="205" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.09"/>
+    <rect x="224" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.11"/>
+    <rect x="243" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.13"/>
+    <rect x="262" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.18"/>
+    <rect x="281" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.26"/>
+    <rect x="300" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.34"/>
+    <rect x="319" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.57"/>
+    <rect x="338" y="198" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+    <rect x="357" y="198" width="16" height="16" rx="2.5" class="ink" fill="none" stroke-width="0.75" opacity="0.15"/>
+  </g>
+  <g class="fade r9">
+    <rect x="186" y="217" width="16" height="16" rx="2.5" class="cella" fill-opacity="0.56"/>
+    <rect x="205" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.08"/>
+    <rect x="224" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.1"/>
+    <rect x="243" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.11"/>
+    <rect x="262" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.14"/>
+    <rect x="281" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.19"/>
+    <rect x="300" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.27"/>
+    <rect x="319" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.35"/>
+    <rect x="338" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.59"/>
+    <rect x="357" y="217" width="16" height="16" rx="2.5" class="cellb" fill-opacity="0.9"/>
+  </g>
+
+  <!-- attention sink, col 0 (carried over from fig. 1's inset) -->
+  <g class="fade s0">
+    <line class="tick" x1="194" y1="239" x2="194" y2="244" stroke-width="0.75" opacity="0.6"/>
+    <text class="txa" x="194" y="254" font-size="9" letter-spacing="1.5" text-anchor="middle" opacity="0.8">sink</text>
+  </g>
+
+  <!-- the masked region -->
+  <text class="txt fade s1" x="310" y="99" font-size="13" text-anchor="middle" opacity="0.6">&#8722;&#8734;</text>
+
+  <!-- the math -->
+  <g class="fade s2">
+    <text class="txt" x="440" y="69" font-size="12">attn(Q, K, V) = softmax( QK<tspan dy="-4.5" font-size="9">T</tspan><tspan dy="4.5">/&#8730;d</tspan><tspan dy="3" font-size="9">k</tspan><tspan dy="-3"> + M )&#183;V</tspan></text>
+  </g>
+  <g class="fade s3">
+    <line class="ink" x1="383" y1="95" x2="434" y2="95" stroke-width="0.75" opacity="0.5"/>
+    <text class="txt" x="440" y="99" font-size="12">M(i, j) = 0</text>
+    <text class="txt" x="560" y="99" font-size="12">j &#8804; i</text>
+    <text class="txt" x="512" y="117" font-size="12">&#8722;&#8734;</text>
+    <text class="txt" x="560" y="117" font-size="12">j &gt; i</text>
+    <text class="txt" x="628" y="117" font-size="10.5" opacity="0.7">(softmax &#8594; 0)</text>
+  </g>
+  <g class="fade s4">
+    <text class="txt" x="440" y="174" font-size="10.5" opacity="0.75">each row of softmax(&#183;) sums to 1</text>
+    <text class="txt" x="440" y="192" font-size="10.5" opacity="0.75">a token attends to its past, never its future</text>
+  </g>
+</svg>

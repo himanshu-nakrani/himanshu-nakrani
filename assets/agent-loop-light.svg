@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 184" width="880" height="184" role="img" aria-labelledby="t">
+  <title id="t">A circuit-style schematic of Code-Agent-Pro's control loop — plan, write, run tests — where a failing run loops back to plan and the circuit settles on tests pass, marked by a check that draws itself last.</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .txt   { fill: #6e7781; }
+    .ink   { stroke: #6e7781; }
+    .sig   { stroke: #4f6ad0; }
+    .pulse { fill: #4f6ad0; }
+    .gold  { stroke: #bf8700; fill: none; }
+    .c  { animation: draw 0.35s cubic-bezier(0.33,0,0.2,1) forwards; }
+    .c1 { stroke-dasharray: 58;  stroke-dashoffset: 58;  animation-delay: 1.5s; }
+    .c2 { stroke-dasharray: 58;  stroke-dashoffset: 58;  animation-delay: 1.9s; }
+    .c3 { stroke-dasharray: 90;  stroke-dashoffset: 90;  animation-delay: 2.3s; }
+    .c4 { stroke-dasharray: 432; stroke-dashoffset: 432; animation-duration: 0.6s; animation-delay: 2.5s; }
+    .chk {
+      stroke-dasharray: 41; stroke-dashoffset: 41;
+      animation: draw 0.5s cubic-bezier(0.33,0,0.2,1) 5.5s forwards;
+    }
+    .fade { opacity: 0; animation: fadein 0.8s cubic-bezier(0.33,0,0.2,1) forwards; }
+    .d0 { animation-delay: 0.05s; }
+    .d1 { animation-delay: 0.3s;  }
+    .d2 { animation-delay: 0.6s;  }
+    .d3 { animation-delay: 0.9s;  }
+    .k1 { animation-delay: 1.8s;  }
+    .k2 { animation-delay: 2.2s;  }
+    .k3 { animation-delay: 2.6s;  }
+    .k4 { animation-delay: 3.0s;  }
+    .l1 { animation-delay: 3.1s;  }
+    .l2 { animation-delay: 3.5s;  }
+    .l3 { animation-delay: 4.9s;  }
+    .d4 { animation-delay: 5.9s;  }
+    @keyframes draw   { to { stroke-dashoffset: 0; } }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .c, .chk { animation: none; stroke-dashoffset: 0; }
+      .fade    { animation: none; opacity: 1; }
+      .pulse   { display: none; }
+    }
+  </style>
+
+  <!-- plate tag -->
+  <text class="txt fade d0" x="80" y="28" font-size="11" letter-spacing="1.5">agent loop</text>
+
+  <!-- stage 1: plan -->
+  <g class="fade d1">
+    <rect x="80" y="60" width="108" height="48" rx="2" class="ink" fill="none" stroke-width="1" opacity="0.55"/>
+    <text class="txt" x="134" y="79" font-size="11" letter-spacing="1.5" text-anchor="middle" opacity="0.9">plan</text>
+    <g class="ink" stroke-width="1" opacity="0.3">
+      <line x1="100" y1="90.5"  x2="168" y2="90.5"/>
+      <line x1="100" y1="97.5"  x2="154" y2="97.5"/>
+      <line x1="100" y1="104.5" x2="140" y2="104.5"/>
+    </g>
+  </g>
+
+  <!-- stage 2: write -->
+  <g class="fade d2">
+    <rect x="252" y="60" width="108" height="48" rx="2" class="ink" fill="none" stroke-width="1" opacity="0.55"/>
+    <text class="txt" x="306" y="79" font-size="11" letter-spacing="1.5" text-anchor="middle" opacity="0.9">write</text>
+    <line class="ink" x1="272" y1="90.5" x2="340" y2="90.5" stroke-width="1" opacity="0.3"/>
+    <line class="sig" x1="282" y1="97.5" x2="330" y2="97.5" stroke-width="1" stroke-opacity="0.5"/>
+    <line class="ink" x1="282" y1="104.5" x2="316" y2="104.5" stroke-width="1" opacity="0.3"/>
+  </g>
+
+  <!-- stage 3: run tests -->
+  <g class="fade d3">
+    <rect x="424" y="60" width="128" height="48" rx="2" class="ink" fill="none" stroke-width="1" opacity="0.55"/>
+    <text class="txt" x="488" y="82" font-size="11" letter-spacing="1.5" text-anchor="middle" opacity="0.9">run tests</text>
+    <text class="txt" x="488" y="98" font-size="9.5" text-anchor="middle" opacity="0.6">in sandbox</text>
+  </g>
+
+  <!-- forward rails -->
+  <line class="ink c c1" x1="188" y1="84" x2="245.5" y2="84" stroke-width="1" opacity="0.7"/>
+  <path class="ink fade k1" d="M245.5 80.5 L251.5 84 L245.5 87.5" fill="none" stroke-width="1" opacity="0.7"/>
+  <line class="ink c c2" x1="360" y1="84" x2="417.5" y2="84" stroke-width="1" opacity="0.7"/>
+  <path class="ink fade k2" d="M417.5 80.5 L423.5 84 L417.5 87.5" fill="none" stroke-width="1" opacity="0.7"/>
+
+  <!-- pass rail (exit) -->
+  <line class="ink c c3" x1="552" y1="84" x2="641.5" y2="84" stroke-width="1" opacity="0.7"/>
+  <path class="ink fade k3" d="M641.5 80.5 L647.5 84 L641.5 87.5" fill="none" stroke-width="1" opacity="0.7"/>
+
+  <!-- fail rail (feedback loop) -->
+  <path class="ink c c4" d="M488 108 L488 146 Q488 152 482 152 L140 152 Q134 152 134 146 L134 114" fill="none" stroke-width="1" opacity="0.7"/>
+  <path class="ink fade k4" d="M130.5 119 L134 113 L137.5 119" fill="none" stroke-width="1" opacity="0.7"/>
+
+  <!-- branch labels -->
+  <text class="txt fade l1" x="311" y="146" font-size="9.5" letter-spacing="1" text-anchor="middle" opacity="0.75">iterate</text>
+  <text class="txt fade l2" x="497" y="133" font-size="9.5" opacity="0.75">fail</text>
+  <text class="txt fade l3" x="596" y="77" font-size="9.5" text-anchor="middle" opacity="0.75">pass</text>
+
+  <!-- the pulse: first run fails, loops, second run exits -->
+  <g class="pulse" opacity="0">
+    <circle r="6" fill-opacity="0.18"/>
+    <circle r="3"/>
+    <animateMotion path="M96 84 L488 84 L488 146 Q488 152 482 152 L140 152 Q134 152 134 146 L134 84 L648 84" begin="2.4s" dur="3s" repeatCount="1" fill="freeze" calcMode="spline" keyTimes="0;1" keyPoints="0;1" keySplines="0.3 0 0.25 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.03;0.97;1" begin="2.4s" dur="3s" repeatCount="1" fill="freeze"/>
+  </g>
+
+  <!-- settle: the check draws itself last -->
+  <path class="gold chk" d="M654 87 L663 96 L681.5 75.5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="fade d4">
+    <text class="txt" x="692" y="81" font-size="11.5">tests pass</text>
+    <text class="txt" x="692" y="97" font-size="10.5" opacity="0.75">exit condition</text>
+  </g>
+</svg>

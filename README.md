@@ -23,6 +23,31 @@
 - [<samp>RAGrade</samp>](https://github.com/himanshu-nakrani/RAGrade) — an evaluation dashboard for RAG: question sets, experiments, parameter sweeps, retrieval quality and latency.
 - [<samp>Code-Agent-Pro</samp>](https://github.com/himanshu-nakrani/Code-Agent-Pro) — an autonomous coding agent that plans, writes code, runs tests in a sandbox, and iterates until they pass.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg" width="880" alt="A 52-week bar chart of GitHub contributions from July 2025 to July 2026: thirty-five near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.">
+  </picture>
+</p>
+
+<p align="center">
+  <sub><samp>fig. 2</samp> — a year in weekly contributions, jul ’25 → jul ’26: thirty-five quiet weeks (10 contributions in all), then the ramp that shipped <a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, and <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a> · as of jul 12, 2026</sub>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg" width="880" alt="A single horizontal stacked bar of code bytes by language across 52 source repositories: Jupyter Notebook 45.1% (flagged as byte-inflated by embedded cell outputs), TypeScript 37.5%, Python 6.5%, then a tail of HTML, MDX, CSS, JavaScript, and other.">
+  </picture>
+</p>
+
+<p align="center">
+  <sub><samp>fig. 3</samp> — what the code is made of: bytes by language, 52 source repos, forks excluded — the day-to-day stack is typescript (<a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, <a href="https://github.com/himanshu-nakrani/aegis"><samp>aegis</samp></a>) and python (<a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a>) · as of jul 12, 2026</sub><br>
+  <sub><samp>†</samp> read jupyter’s share with care: <samp>.ipynb</samp> files embed cell outputs alongside code, so bytes overstate what was written</sub>
+</p>
+
 ---
 
 <sub>State Street · India · [himanshunakrani.me](https://himanshunakrani.me) · [himanshunakrani0@gmail.com](mailto:himanshunakrani0@gmail.com)</sub>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 240" width="880" height="240" role="img" aria-labelledby="t2">
+  <title id="t2">A 52-week bar chart of GitHub contributions, July 2025 to July 2026: thirty-five near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .txt { fill: #95a0ac; }
+    .ink { stroke: #8b949e; }
+    .stubs rect { fill: #7d97ee; fill-opacity: 0.35; }
+    .bar {
+      stroke: #7d97ee; stroke-width: 10.5; stroke-linecap: butt;
+      animation: rise 0.55s cubic-bezier(0.2,0.6,0.25,1) forwards;
+    }
+    .fade { opacity: 0; animation: fadein 0.7s cubic-bezier(0.33,0,0.2,1) forwards; }
+    .dotf { fill: #d29922; }
+    .ring { stroke: #d29922; fill: none; }
+    .d0 { animation-delay: 0.05s; }
+    .ds { animation-delay: 0.35s; }
+    .di { animation-delay: 2.4s;  }
+    .dp { animation-delay: 3s;    }
+    .dl { animation-delay: 3.25s; }
+    @keyframes rise   { to { stroke-dashoffset: 0; } }
+    @keyframes fadein { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .bar  { animation: none; stroke-dashoffset: 0; }
+      .fade { animation: none; opacity: 1; }
+      .ring { display: none; }
+    }
+  </style>
+
+  <!-- frame: gridlines, axes, ticks, tick labels -->
+  <g class="fade d0">
+    <g class="ink" stroke-width="0.75" opacity="0.22">
+      <line x1="56.5" y1="65.5" x2="824" y2="65.5"/>
+      <line x1="56.5" y1="110.5" x2="824" y2="110.5"/>
+      <line x1="56.5" y1="155.5" x2="824" y2="155.5"/>
+    </g>
+    <g class="ink" stroke-width="1" opacity="0.8">
+      <line x1="56.5" y1="36" x2="56.5" y2="200.5"/>
+      <line x1="56.5" y1="200.5" x2="824" y2="200.5"/>
+    </g>
+    <g class="ink" stroke-width="1" opacity="0.8">
+      <line x1="51" y1="65.5" x2="56.5" y2="65.5"/>
+      <line x1="51" y1="110.5" x2="56.5" y2="110.5"/>
+      <line x1="51" y1="155.5" x2="56.5" y2="155.5"/>
+      <line x1="64.0" y1="200.5" x2="64.0" y2="206"/>
+      <line x1="238.0" y1="200.5" x2="238.0" y2="206"/>
+      <line x1="426.5" y1="200.5" x2="426.5" y2="206"/>
+      <line x1="615.0" y1="200.5" x2="615.0" y2="206"/>
+      <line x1="803.5" y1="200.5" x2="803.5" y2="206"/>
+    </g>
+    <g class="txt" font-size="9" opacity="0.75" text-anchor="end">
+      <text x="47" y="68.5">300</text>
+      <text x="47" y="113.5">200</text>
+      <text x="47" y="158.5">100</text>
+      <text x="47" y="203.5">0</text>
+    </g>
+    <text class="txt" x="64.0" y="220" font-size="9.5" text-anchor="middle" opacity="0.75">jul &#8217;25</text>
+    <text class="txt" x="238.0" y="220" font-size="9.5" text-anchor="middle" opacity="0.75">oct</text>
+    <text class="txt" x="426.5" y="220" font-size="9.5" text-anchor="middle" opacity="0.75">jan &#8217;26</text>
+    <text class="txt" x="615.0" y="220" font-size="9.5" text-anchor="middle" opacity="0.75">apr</text>
+    <text class="txt" x="803.5" y="220" font-size="9.5" text-anchor="middle" opacity="0.75">jul</text>
+    <text class="txt" x="52" y="24" font-size="11" letter-spacing="1.5">contributions / wk</text>
+    <text class="txt" x="824" y="24" font-size="9" letter-spacing="1" text-anchor="end" opacity="0.65">n = 2,085 &#183; 52 wk</text>
+  </g>
+
+  <!-- silent weeks: 33 zero-weeks, one quiet field of 1px stubs -->
+  <g class="stubs fade ds">
+    <rect x="64.0" y="199.5" width="10.5" height="1"/>
+    <rect x="78.5" y="199.5" width="10.5" height="1"/>
+    <rect x="107.5" y="199.5" width="10.5" height="1"/>
+    <rect x="122.0" y="199.5" width="10.5" height="1"/>
+    <rect x="136.5" y="199.5" width="10.5" height="1"/>
+    <rect x="151.0" y="199.5" width="10.5" height="1"/>
+    <rect x="165.5" y="199.5" width="10.5" height="1"/>
+    <rect x="180.0" y="199.5" width="10.5" height="1"/>
+    <rect x="194.5" y="199.5" width="10.5" height="1"/>
+    <rect x="209.0" y="199.5" width="10.5" height="1"/>
+    <rect x="223.5" y="199.5" width="10.5" height="1"/>
+    <rect x="238.0" y="199.5" width="10.5" height="1"/>
+    <rect x="252.5" y="199.5" width="10.5" height="1"/>
+    <rect x="267.0" y="199.5" width="10.5" height="1"/>
+    <rect x="281.5" y="199.5" width="10.5" height="1"/>
+    <rect x="296.0" y="199.5" width="10.5" height="1"/>
+    <rect x="310.5" y="199.5" width="10.5" height="1"/>
+    <rect x="325.0" y="199.5" width="10.5" height="1"/>
+    <rect x="339.5" y="199.5" width="10.5" height="1"/>
+    <rect x="354.0" y="199.5" width="10.5" height="1"/>
+    <rect x="368.5" y="199.5" width="10.5" height="1"/>
+    <rect x="383.0" y="199.5" width="10.5" height="1"/>
+    <rect x="397.5" y="199.5" width="10.5" height="1"/>
+    <rect x="412.0" y="199.5" width="10.5" height="1"/>
+    <rect x="426.5" y="199.5" width="10.5" height="1"/>
+    <rect x="441.0" y="199.5" width="10.5" height="1"/>
+    <rect x="455.5" y="199.5" width="10.5" height="1"/>
+    <rect x="470.0" y="199.5" width="10.5" height="1"/>
+    <rect x="484.5" y="199.5" width="10.5" height="1"/>
+    <rect x="499.0" y="199.5" width="10.5" height="1"/>
+    <rect x="513.5" y="199.5" width="10.5" height="1"/>
+    <rect x="528.0" y="199.5" width="10.5" height="1"/>
+    <rect x="557.0" y="199.5" width="10.5" height="1"/>
+  </g>
+
+  <!-- the series: 19 active weeks rising left to right (0.45px per contribution) -->
+  <g>
+    <line class="bar" style="animation-delay:0.5s"  x1="98.25"  y1="200.5" x2="98.25"  y2="199.6"  stroke-dasharray="0.9"   stroke-dashoffset="0.9"/>
+    <line class="bar" style="animation-delay:0.62s" x1="547.75" y1="200.5" x2="547.75" y2="196.9"  stroke-dasharray="3.6"   stroke-dashoffset="3.6"/>
+    <line class="bar" style="animation-delay:0.75s" x1="576.75" y1="200.5" x2="576.75" y2="178.0"  stroke-dasharray="22.5"  stroke-dashoffset="22.5"/>
+    <line class="bar" style="animation-delay:0.84s" x1="591.25" y1="200.5" x2="591.25" y2="164.05" stroke-dasharray="36.45" stroke-dashoffset="36.45"/>
+    <line class="bar" style="animation-delay:0.93s" x1="605.75" y1="200.5" x2="605.75" y2="186.55" stroke-dasharray="13.95" stroke-dashoffset="13.95"/>
+    <line class="bar" style="animation-delay:1.02s" x1="620.25" y1="200.5" x2="620.25" y2="163.6"  stroke-dasharray="36.9"  stroke-dashoffset="36.9"/>
+    <line class="bar" style="animation-delay:1.11s" x1="634.75" y1="200.5" x2="634.75" y2="156.85" stroke-dasharray="43.65" stroke-dashoffset="43.65"/>
+    <line class="bar" style="animation-delay:1.2s"  x1="649.25" y1="200.5" x2="649.25" y2="167.2"  stroke-dasharray="33.3"  stroke-dashoffset="33.3"/>
+    <line class="bar" style="animation-delay:1.29s" x1="663.75" y1="200.5" x2="663.75" y2="145.6"  stroke-dasharray="54.9"  stroke-dashoffset="54.9"/>
+    <line class="bar" style="animation-delay:1.38s" x1="678.25" y1="200.5" x2="678.25" y2="135.25" stroke-dasharray="65.25" stroke-dashoffset="65.25"/>
+    <line class="bar" style="animation-delay:1.47s" x1="692.75" y1="200.5" x2="692.75" y2="170.35" stroke-dasharray="30.15" stroke-dashoffset="30.15"/>
+    <line class="bar" style="animation-delay:1.56s" x1="707.25" y1="200.5" x2="707.25" y2="150.55" stroke-dasharray="49.95" stroke-dashoffset="49.95"/>
+    <line class="bar" style="animation-delay:1.65s" x1="721.75" y1="200.5" x2="721.75" y2="126.7"  stroke-dasharray="73.8"  stroke-dashoffset="73.8"/>
+    <line class="bar" style="animation-delay:1.74s" x1="736.25" y1="200.5" x2="736.25" y2="138.85" stroke-dasharray="61.65" stroke-dashoffset="61.65"/>
+    <line class="bar" style="animation-delay:1.83s" x1="750.75" y1="200.5" x2="750.75" y2="123.1"  stroke-dasharray="77.4"  stroke-dashoffset="77.4"/>
+    <line class="bar" style="animation-delay:1.92s" x1="765.25" y1="200.5" x2="765.25" y2="150.55" stroke-dasharray="49.95" stroke-dashoffset="49.95"/>
+    <line class="bar" style="animation-delay:2.01s" x1="779.75" y1="200.5" x2="779.75" y2="152.8"  stroke-dasharray="47.7"  stroke-dashoffset="47.7"/>
+    <line class="bar" style="animation-delay:2.1s"  x1="794.25" y1="200.5" x2="794.25" y2="41.2"   stroke-dasharray="159.3" stroke-dashoffset="159.3"/>
+    <line class="bar" style="animation-delay:2.19s" x1="808.75" y1="200.5" x2="808.75" y2="123.55" stroke-dasharray="76.95" stroke-dashoffset="76.95"/>
+  </g>
+
+  <!-- ignition annotation, in the manner of fig. 1's stage markers -->
+  <g class="fade di">
+    <line class="ink" x1="571.5" y1="48" x2="571.5" y2="200.5" stroke-width="0.75" stroke-dasharray="3 4" opacity="0.5"/>
+    <text class="txt" x="577.5" y="58" font-size="11" letter-spacing="2" opacity="0.9">ignition</text>
+    <text class="txt" x="577.5" y="71" font-size="9" letter-spacing="1.5" opacity="0.65">mar &#8217;26</text>
+  </g>
+
+  <!-- peak point + annotation -->
+  <circle class="dotf fade dp" cx="794.25" cy="41.2" r="3.2"/>
+  <circle class="ring" cx="794.25" cy="41.2" r="3.5" stroke-width="1" opacity="0">
+    <animate attributeName="r" values="3.5;12" keyTimes="0;1" dur="2s" begin="3.2s" repeatCount="1" calcMode="spline" keySplines="0.25 0 0.4 1"/>
+    <animate attributeName="opacity" values="0.55;0" keyTimes="0;1" dur="2s" begin="3.2s" repeatCount="1" calcMode="spline" keySplines="0.25 0 0.4 1"/>
+  </circle>
+  <g class="fade dl">
+    <line class="ink" x1="779.0" y1="41.2" x2="787.0" y2="41.2" stroke-width="0.75" opacity="0.6"/>
+    <text class="txt" x="775.0" y="45.0" font-size="11.5" text-anchor="end">peak &#183; 354</text>
+    <text class="txt" x="775.0" y="60.0" font-size="10.5" text-anchor="end" opacity="0.75">wk of jun 28</text>
+  </g>
+</svg>
