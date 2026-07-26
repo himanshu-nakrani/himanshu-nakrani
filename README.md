@@ -16,7 +16,7 @@
 
 ## Selected work
 
-- [<samp>TinyMathReason-1B</samp>](https://github.com/himanshu-nakrani/TinyMathReason-1B) — a 1.12B math-reasoning transformer trained from scratch: tokenizer, TPU pretraining, SFT, GRPO — every stage documented.<br><sub>the honest headline, straight from the repo: 2.2% on GSM8K — roughly where peer 1B-class base models land, on ~50× fewer pretraining tokens. The leaderboard was never the point; the pipeline was.</sub>
+- [<samp>TinyMathReason-1B</samp>](https://github.com/himanshu-nakrani/TinyMathReason-1B) — a 1.12B math-reasoning transformer trained from scratch: tokenizer, TPU pretraining, SFT, GRPO — every stage documented
 - [<samp>sourceful</samp>](https://github.com/himanshu-nakrani/sourceful) — self-hostable document Q&A: cited streaming answers, background ingestion, and workspace RBAC on Postgres + pgvector.
 - [<samp>TensorDojo</samp>](https://github.com/himanshu-nakrani/TensorDojo) — 58 interactive lessons on how LLMs work, from dot products to attention, LoRA, and DPO — sims you can drag, with the math underneath.
 - [<samp>aegis</samp>](https://github.com/himanshu-nakrani/aegis) — a visual platform for building agents, with evaluation, guardrails, and observability built in rather than bolted on.
