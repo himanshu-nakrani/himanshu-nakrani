@@ -27,24 +27,24 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg" width="880" alt="A 52-week bar chart of GitHub contributions from July 2025 to July 2026: thirty-four near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg" width="880" alt="A 52-week bar chart of GitHub contributions from August 2025 to August 2026: thirty-one near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.">
   </picture>
 </p>
 
 <p align="center">
-  <sub><samp>fig. 2</samp> — a year in weekly contributions, jul ’25 → jul ’26: thirty-four quiet weeks (10 contributions in all), then the ramp that shipped <a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, and <a href="https://github.com/himanshu-nakrani/aegis"><samp>aegis</samp></a> · as of jul 25, 2026</sub>
+  <sub><samp>fig. 2</samp> — a year in weekly contributions, aug ’25 → aug ’26: thirty-one quiet weeks (8 contributions in all), then the ramp that shipped <a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, and <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a> · as of aug 15, 2026</sub>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg" width="880" alt="A single horizontal stacked bar of code bytes by language across 56 source repositories: TypeScript 41.6%, Jupyter Notebook 39.2% (flagged as byte-inflated by embedded cell outputs), Python 6.9%, then a tail of HTML, MDX, JavaScript, CSS, and other.">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg" width="880" alt="A single horizontal stacked bar of code bytes by language across 57 source repositories: TypeScript 38.0%, Jupyter Notebook 34.7% (flagged as byte-inflated by embedded cell outputs), HTML 12.1%, Python 6.3%, then a tail of JavaScript, MDX, CSS, and other.">
   </picture>
 </p>
 
 <p align="center">
-  <sub><samp>fig. 3</samp> — what the code is made of: bytes by language, 56 source repos, forks excluded — typescript (<a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, <a href="https://github.com/himanshu-nakrani/aegis"><samp>aegis</samp></a>) has just edged past jupyter as the largest share; python is where the model work lives (<a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a>) · as of jul 25, 2026</sub><br>
+  <sub><samp>fig. 3</samp> — what the code is made of: bytes by language, 57 source repos, forks excluded — the day-to-day stack is typescript (<a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, <a href="https://github.com/himanshu-nakrani/aegis"><samp>aegis</samp></a>) and python (<a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a>) · as of aug 15, 2026</sub><br>
   <sub><samp>†</samp> read jupyter’s share with care: <samp>.ipynb</samp> files embed cell outputs alongside code, so bytes overstate what was written</sub>
 </p>
 
@@ -52,12 +52,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg" width="880" alt="A 24-bar histogram of commit times in IST plotted noon to noon: bars climb through the evening into a night block holding 61% of commits between 22:00 and 05:00, peaking at 213 commits at 02:00, then collapse into a near-empty morning trough — 20 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 339 commits; 37% of commits land on weekends.">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg" width="880" alt="A 24-bar histogram of commit times in IST plotted noon to noon: bars climb through the evening into a night block holding 60% of commits between 22:00 and 05:00, peaking at 218 commits at 02:00, then collapse into a near-empty morning trough — 28 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 354 commits; 36% of commits land on weekends.">
   </picture>
 </p>
 
 <p align="center">
-  <sub><samp>fig. 4</samp> — when the work happens: commits by hour, ist (utc+5:30), plotted noon → noon · n = 1,582 · 40 repos · jul ’25 → jul ’26 — 61% of commits land between 22:00 and 05:00 and peak at 02:00; the day job keeps 09:00–19:00 at 26%; weekends carry 37%, sundays most of all — the ramp in <samp>fig. 2</samp> was built at night</sub>
+  <sub><samp>fig. 4</samp> — when the work happens: commits by hour, ist (utc+5:30), plotted noon → noon · n = 1,760 · 39 repos · aug ’25 → aug ’26 — 60% of commits land between 22:00 and 05:00 and peak at 02:00; the day job keeps 09:00–19:00 at 28%; weekends carry 36%, sundays most of all — the ramp in <samp>fig. 2</samp> was built at night</sub>
 </p>
 
 <p align="center">
