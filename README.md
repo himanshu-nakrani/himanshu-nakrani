@@ -25,9 +25,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg" width="880" alt="A 52-week bar chart of GitHub contributions from September 2025 to September 2026: twenty-seven near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg?v=2026-09-06">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg?v=2026-09-06">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg?v=2026-09-06" width="880" alt="A 52-week bar chart of GitHub contributions from September 2025 to September 2026: twenty-seven near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.">
   </picture>
 </p>
 
@@ -37,9 +37,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg" width="880" alt="A single horizontal stacked bar of code bytes by language across 58 source repositories: TypeScript 38.6%, Jupyter Notebook 34.3% (flagged as byte-inflated by embedded cell outputs), HTML 12.0%, Python 6.3%, then a tail of JavaScript, MDX, CSS, and other.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-dark.svg?v=2026-09-06">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg?v=2026-09-06">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/languages-light.svg?v=2026-09-06" width="880" alt="A single horizontal stacked bar of code bytes by language across 58 source repositories: TypeScript 38.6%, Jupyter Notebook 34.3% (flagged as byte-inflated by embedded cell outputs), HTML 12.0%, Python 6.3%, then a tail of JavaScript, MDX, CSS, and other.">
   </picture>
 </p>
 
@@ -50,9 +50,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg" width="880" alt="A 24-bar histogram of commit times in IST plotted noon to noon: bars climb through the evening into a night block holding 61% of commits between 22:00 and 05:00, peaking at 223 commits at 02:00, then collapse into a morning trough — 31 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 378 commits; 38% of commits land on weekends.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-dark.svg?v=2026-09-06">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg?v=2026-09-06">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/commit-hours-light.svg?v=2026-09-06" width="880" alt="A 24-bar histogram of commit times in IST plotted noon to noon: bars climb through the evening into a night block holding 61% of commits between 22:00 and 05:00, peaking at 223 commits at 02:00, then collapse into a morning trough — 31 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 378 commits; 38% of commits land on weekends.">
   </picture>
 </p>
 
