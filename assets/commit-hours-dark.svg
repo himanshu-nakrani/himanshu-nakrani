@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 320" width="880" height="320" role="img" aria-labelledby="t4">
-  <title id="t4">A 24-bar histogram of commit times in IST, plotted noon to noon: bars climb through the evening into a night block holding 60 percent of commits between 22:00 and 05:00, peaking at 218 commits at 02:00, then collapse into a near-empty morning trough of 28 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 354 commits; 36 percent of commits land on weekends.</title>
+  <title id="t4">A 24-bar histogram of commit times in IST, plotted noon to noon: bars climb through the evening into a night block holding 61 percent of commits between 22:00 and 05:00, peaking at 223 commits at 02:00, then collapse into a morning trough of 31 commits across 06:00 to 11:00. A small weekday strip beneath shows Sunday highest at 378 commits; 38 percent of commits land on weekends.</title>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
     .txt { fill: #95a0ac; }
@@ -75,7 +75,7 @@
       <text x="741.5" y="219">09:00</text>
     </g>
     <text class="txt" x="52" y="24" font-size="11" letter-spacing="1.5">commits by hour &#183; ist (utc+5:30)</text>
-    <text class="txt" x="824" y="24" font-size="9" letter-spacing="1" text-anchor="end" opacity="0.65">n = 1,760 &#183; 39 repos &#183; aug &#8217;25 &#8594; aug &#8217;26</text>
+    <text class="txt" x="824" y="24" font-size="9" letter-spacing="1" text-anchor="end" opacity="0.65">n = 1,903 &#183; 39 repos &#183; sep &#8217;25 &#8594; sep &#8217;26</text>
     <text class="txt" x="52" y="256" font-size="10" letter-spacing="1.5" opacity="0.8">by day</text>
     <g class="txt" font-size="9" opacity="0.7" text-anchor="middle">
       <text x="76" y="310">mon</text>
@@ -98,27 +98,27 @@
   <g>
     <line class="bar" style="animation-delay:0.50s" x1="80" y1="200.5" x2="80" y2="187.9" stroke-dasharray="12.6" stroke-dashoffset="12.6"/>
     <line class="bar" style="animation-delay:0.57s" x1="111.5" y1="200.5" x2="111.5" y2="189.3" stroke-dasharray="11.2" stroke-dashoffset="11.2"/>
-    <line class="bar" style="animation-delay:0.64s" x1="143" y1="200.5" x2="143" y2="173.2" stroke-dasharray="27.3" stroke-dashoffset="27.3"/>
-    <line class="bar" style="animation-delay:0.71s" x1="174.5" y1="200.5" x2="174.5" y2="166.2" stroke-dasharray="34.3" stroke-dashoffset="34.3"/>
-    <line class="bar" style="animation-delay:0.78s" x1="206" y1="200.5" x2="206" y2="115.1" stroke-dasharray="85.4" stroke-dashoffset="85.4"/>
-    <line class="bar" style="animation-delay:0.85s" x1="237.5" y1="200.5" x2="237.5" y2="137.5" stroke-dasharray="63.0" stroke-dashoffset="63.0"/>
-    <line class="bar" style="animation-delay:0.92s" x1="269" y1="200.5" x2="269" y2="124.2" stroke-dasharray="76.3" stroke-dashoffset="76.3"/>
+    <line class="bar" style="animation-delay:0.64s" x1="143" y1="200.5" x2="143" y2="168.3" stroke-dasharray="32.2" stroke-dashoffset="32.2"/>
+    <line class="bar" style="animation-delay:0.71s" x1="174.5" y1="200.5" x2="174.5" y2="165.5" stroke-dasharray="35.0" stroke-dashoffset="35.0"/>
+    <line class="bar" style="animation-delay:0.78s" x1="206" y1="200.5" x2="206" y2="99.7" stroke-dasharray="100.8" stroke-dashoffset="100.8"/>
+    <line class="bar" style="animation-delay:0.85s" x1="237.5" y1="200.5" x2="237.5" y2="123.5" stroke-dasharray="77.0" stroke-dashoffset="77.0"/>
+    <line class="bar" style="animation-delay:0.92s" x1="269" y1="200.5" x2="269" y2="105.3" stroke-dasharray="95.2" stroke-dashoffset="95.2"/>
     <line class="bar" style="animation-delay:0.99s" x1="300.5" y1="200.5" x2="300.5" y2="159.9" stroke-dasharray="40.6" stroke-dashoffset="40.6"/>
     <line class="bar" style="animation-delay:1.06s" x1="332" y1="200.5" x2="332" y2="162.7" stroke-dasharray="37.8" stroke-dashoffset="37.8"/>
-    <line class="bar" style="animation-delay:1.13s" x1="363.5" y1="200.5" x2="363.5" y2="169.7" stroke-dasharray="30.8" stroke-dashoffset="30.8"/>
-    <line class="bar" style="animation-delay:1.20s" x1="395" y1="200.5" x2="395" y2="136.8" stroke-dasharray="63.7" stroke-dashoffset="63.7"/>
-    <line class="bar" style="animation-delay:1.27s" x1="426.5" y1="200.5" x2="426.5" y2="99.0" stroke-dasharray="101.5" stroke-dashoffset="101.5"/>
-    <line class="bar" style="animation-delay:1.34s" x1="458" y1="200.5" x2="458" y2="119.3" stroke-dasharray="81.2" stroke-dashoffset="81.2"/>
-    <line class="bar" style="animation-delay:1.41s" x1="489.5" y1="200.5" x2="489.5" y2="73.8" stroke-dasharray="126.7" stroke-dashoffset="126.7"/>
-    <line class="bar" style="animation-delay:1.48s" x1="521" y1="200.5" x2="521" y2="47.9" stroke-dasharray="152.6" stroke-dashoffset="152.6"/>
-    <line class="bar" style="animation-delay:1.55s" x1="552.5" y1="200.5" x2="552.5" y2="62.6" stroke-dasharray="137.9" stroke-dashoffset="137.9"/>
-    <line class="bar" style="animation-delay:1.62s" x1="584" y1="200.5" x2="584" y2="130.5" stroke-dasharray="70.0" stroke-dashoffset="70.0"/>
-    <line class="bar" style="animation-delay:1.69s" x1="615.5" y1="200.5" x2="615.5" y2="159.9" stroke-dasharray="40.6" stroke-dashoffset="40.6"/>
+    <line class="bar" style="animation-delay:1.13s" x1="363.5" y1="200.5" x2="363.5" y2="169.0" stroke-dasharray="31.5" stroke-dashoffset="31.5"/>
+    <line class="bar" style="animation-delay:1.20s" x1="395" y1="200.5" x2="395" y2="134.7" stroke-dasharray="65.8" stroke-dashoffset="65.8"/>
+    <line class="bar" style="animation-delay:1.27s" x1="426.5" y1="200.5" x2="426.5" y2="92.0" stroke-dasharray="108.5" stroke-dashoffset="108.5"/>
+    <line class="bar" style="animation-delay:1.34s" x1="458" y1="200.5" x2="458" y2="103.9" stroke-dasharray="96.6" stroke-dashoffset="96.6"/>
+    <line class="bar" style="animation-delay:1.41s" x1="489.5" y1="200.5" x2="489.5" y2="69.6" stroke-dasharray="130.9" stroke-dashoffset="130.9"/>
+    <line class="bar" style="animation-delay:1.48s" x1="521" y1="200.5" x2="521" y2="44.4" stroke-dasharray="156.1" stroke-dashoffset="156.1"/>
+    <line class="bar" style="animation-delay:1.55s" x1="552.5" y1="200.5" x2="552.5" y2="57.0" stroke-dasharray="143.5" stroke-dashoffset="143.5"/>
+    <line class="bar" style="animation-delay:1.62s" x1="584" y1="200.5" x2="584" y2="129.8" stroke-dasharray="70.7" stroke-dashoffset="70.7"/>
+    <line class="bar" style="animation-delay:1.69s" x1="615.5" y1="200.5" x2="615.5" y2="155.0" stroke-dasharray="45.5" stroke-dashoffset="45.5"/>
     <line class="bar" style="animation-delay:1.76s" x1="647" y1="200.5" x2="647" y2="196.3" stroke-dasharray="4.2" stroke-dashoffset="4.2"/>
     <line class="bar" style="animation-delay:1.83s" x1="678.5" y1="200.5" x2="678.5" y2="199.8" stroke-dasharray="0.7" stroke-dashoffset="0.7"/>
     <line class="bar" style="animation-delay:1.90s" x1="710" y1="200.5" x2="710" y2="199.8" stroke-dasharray="0.7" stroke-dashoffset="0.7"/>
     <line class="bar" style="animation-delay:1.97s" x1="741.5" y1="200.5" x2="741.5" y2="190.7" stroke-dasharray="9.8" stroke-dashoffset="9.8"/>
-    <line class="bar" style="animation-delay:2.04s" x1="773" y1="200.5" x2="773" y2="196.3" stroke-dasharray="4.2" stroke-dashoffset="4.2"/>
+    <line class="bar" style="animation-delay:2.04s" x1="773" y1="200.5" x2="773" y2="194.2" stroke-dasharray="6.3" stroke-dashoffset="6.3"/>
     <line class="bar" style="animation-delay:2.11s" x1="804.5" y1="200.5" x2="804.5" y2="181.6" stroke-dasharray="18.9" stroke-dashoffset="18.9"/>
   </g>
 
@@ -127,42 +127,42 @@
   <g class="fade dn">
     <line class="ink" x1="379.25" y1="48" x2="379.25" y2="200.5" stroke-width="0.75" stroke-dasharray="3 4" opacity="0.5"/>
     <text class="txt" x="373.25" y="72" font-size="11" letter-spacing="2" text-anchor="end" opacity="0.9">the night shift</text>
-    <text class="txt" x="373.25" y="85" font-size="9" letter-spacing="1.5" text-anchor="end" opacity="0.65">60% of commits</text>
+    <text class="txt" x="373.25" y="85" font-size="9" letter-spacing="1.5" text-anchor="end" opacity="0.65">61% of commits</text>
     <text class="txt" x="373.25" y="98" font-size="9" letter-spacing="1.5" text-anchor="end" opacity="0.65">22:00 &#8594; 05:00</text>
   </g>
   <g class="fade dt">
-    <line class="ink" x1="599.75" y1="48" x2="599.75" y2="200.5" stroke-width="0.75" stroke-dasharray="3 4" opacity="0.5"/>
-    <text class="txt" x="605.75" y="58" font-size="11" letter-spacing="2" opacity="0.9">the trough</text>
-    <text class="txt" x="605.75" y="71" font-size="9" letter-spacing="1.5" opacity="0.65">06:00 &#8594; 11:00 &#183; 28 commits</text>
+    <line class="ink" x1="631.25" y1="48" x2="631.25" y2="200.5" stroke-width="0.75" stroke-dasharray="3 4" opacity="0.5"/>
+    <text class="txt" x="637.25" y="58" font-size="11" letter-spacing="2" opacity="0.9">the trough</text>
+    <text class="txt" x="637.25" y="71" font-size="9" letter-spacing="1.5" opacity="0.65">06:00 &#8594; 11:00 &#183; 31 commits</text>
   </g>
 
   <!-- peak point + annotation (to the left, so it clears the equally tall 03:00 bar) -->
-  <circle class="dotf fade dp" cx="521" cy="47.9" r="3.2"/>
-  <circle class="ring" cx="521" cy="47.9" r="3.5" stroke-width="1" opacity="0">
+  <circle class="dotf fade dp" cx="521" cy="44.4" r="3.2"/>
+  <circle class="ring" cx="521" cy="44.4" r="3.5" stroke-width="1" opacity="0">
     <animate attributeName="r" values="3.5;12" keyTimes="0;1" dur="2s" begin="3.5s" repeatCount="1" calcMode="spline" keySplines="0.25 0 0.4 1"/>
     <animate attributeName="opacity" values="0.55;0" keyTimes="0;1" dur="2s" begin="3.5s" repeatCount="1" calcMode="spline" keySplines="0.25 0 0.4 1"/>
   </circle>
   <g class="fade dl">
-    <line class="ink" x1="515" y1="47.9" x2="507" y2="47.9" stroke-width="0.75" opacity="0.6"/>
-    <text class="txt" x="503" y="40.0" font-size="11.5" text-anchor="end">peak &#183; 02:00</text>
-    <text class="txt" x="503" y="53.0" font-size="10.5" text-anchor="end" opacity="0.75">218 commits</text>
+    <line class="ink" x1="515" y1="44.4" x2="507" y2="44.4" stroke-width="0.75" opacity="0.6"/>
+    <text class="txt" x="503" y="36.5" font-size="11.5" text-anchor="end">peak &#183; 02:00</text>
+    <text class="txt" x="503" y="49.5" font-size="10.5" text-anchor="end" opacity="0.75">223 commits</text>
   </g>
 
   <!-- day-of-week strip: mon to sun (0.105px per commit) -->
   <g>
-    <line class="dbar" style="animation-delay:2.35s" x1="76" y1="296.5" x2="76" y2="273.93" stroke-dasharray="22.57" stroke-dashoffset="22.57"/>
-    <line class="dbar" style="animation-delay:2.44s" x1="100" y1="296.5" x2="100" y2="271.40" stroke-dasharray="25.09" stroke-dashoffset="25.09"/>
-    <line class="dbar" style="animation-delay:2.53s" x1="124" y1="296.5" x2="124" y2="266.47" stroke-dasharray="30.03" stroke-dashoffset="30.03"/>
-    <line class="dbar" style="animation-delay:2.62s" x1="148" y1="296.5" x2="148" y2="279.70" stroke-dasharray="16.80" stroke-dashoffset="16.80"/>
-    <line class="dbar" style="animation-delay:2.71s" x1="172" y1="296.5" x2="172" y2="272.04" stroke-dasharray="24.46" stroke-dashoffset="24.46"/>
-    <line class="dbar" style="animation-delay:2.80s" x1="196" y1="296.5" x2="196" y2="267.83" stroke-dasharray="28.66" stroke-dashoffset="28.66"/>
-    <line class="dbar" style="animation-delay:2.89s" x1="220" y1="296.5" x2="220" y2="259.33" stroke-dasharray="37.17" stroke-dashoffset="37.17"/>
+    <line class="dbar" style="animation-delay:2.35s" x1="76" y1="296.5" x2="76" y2="272.77" stroke-dasharray="23.73" stroke-dashoffset="23.73"/>
+    <line class="dbar" style="animation-delay:2.44s" x1="100" y1="296.5" x2="100" y2="270.46" stroke-dasharray="26.04" stroke-dashoffset="26.04"/>
+    <line class="dbar" style="animation-delay:2.53s" x1="124" y1="296.5" x2="124" y2="265.95" stroke-dasharray="30.55" stroke-dashoffset="30.55"/>
+    <line class="dbar" style="animation-delay:2.62s" x1="148" y1="296.5" x2="148" y2="278.86" stroke-dasharray="17.64" stroke-dashoffset="17.64"/>
+    <line class="dbar" style="animation-delay:2.71s" x1="172" y1="296.5" x2="172" y2="270.14" stroke-dasharray="26.36" stroke-dashoffset="26.36"/>
+    <line class="dbar" style="animation-delay:2.80s" x1="196" y1="296.5" x2="196" y2="260.70" stroke-dasharray="35.80" stroke-dashoffset="35.80"/>
+    <line class="dbar" style="animation-delay:2.89s" x1="220" y1="296.5" x2="220" y2="256.81" stroke-dasharray="39.69" stroke-dashoffset="39.69"/>
   </g>
 
   <!-- sunday annotation -->
   <g class="fade dw">
-    <line class="ink" x1="231" y1="260.0" x2="239" y2="260.0" stroke-width="0.75" opacity="0.6"/>
-    <text class="txt" x="243" y="263.8" font-size="10.5">sundays &#183; 354</text>
-    <text class="txt" x="243" y="277.8" font-size="9.5" opacity="0.75">36% of commits land on weekends</text>
+    <line class="ink" x1="231" y1="256.8" x2="239" y2="256.8" stroke-width="0.75" opacity="0.6"/>
+    <text class="txt" x="243" y="260.6" font-size="10.5">sundays &#183; 378</text>
+    <text class="txt" x="243" y="274.6" font-size="9.5" opacity="0.75">38% of commits land on weekends</text>
   </g>
 </svg>
