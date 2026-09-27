@@ -25,14 +25,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg?v=2026-09-28">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg?v=2026-09-28">
-    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg?v=2026-09-28" width="880" alt="A 52-week bar chart of GitHub contributions from September 2025 to September 2026: twenty-four near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg?v=2026-09-28b">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg?v=2026-09-28b">
+    <img src="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-light.svg?v=2026-09-28b" width="880" alt="A 52-week bar chart of GitHub contributions from October 2025 to September 2026: twenty-three near-silent weeks, an annotated ignition point in mid-March 2026, then a steep ramp peaking at 354 contributions in the week of June 28, with the week of September 27 still open at 64.">
   </picture>
 </p>
 
 <p align="center">
-  <sub><samp>fig. 2</samp> — a year in weekly contributions, sep ’25 → sep ’26: twenty-four quiet weeks (8 contributions in all), then the ramp that shipped <a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, and <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a> · as of sep 28, 2026</sub>
+  <sub><samp>fig. 2</samp> — a year in weekly contributions, oct ’25 → sep ’26: twenty-three quiet weeks (8 contributions in all), then the ramp that shipped <a href="https://github.com/himanshu-nakrani/TinyMathReason-1B"><samp>TinyMathReason-1B</samp></a>, <a href="https://github.com/himanshu-nakrani/TensorDojo"><samp>TensorDojo</samp></a>, and <a href="https://github.com/himanshu-nakrani/sourceful"><samp>sourceful</samp></a> · n = 3,248 as of sep 28, 2026, the week of sep 27 still open</sub>
 </p>
 
 <p align="center">
