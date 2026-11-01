@@ -27,6 +27,14 @@
 - [<samp>RAGrade</samp>](https://github.com/himanshu-nakrani/RAGrade) — an evaluation dashboard for RAG: question sets, experiments, parameter sweeps, retrieval quality and latency.
 - [<samp>Code-Agent-Pro</samp>](https://github.com/himanshu-nakrani/Code-Agent-Pro) — an autonomous coding agent that plans, writes code, runs tests in a sandbox, and iterates until they pass.
 
+## Skills
+
+- **LLM systems** — from-scratch training (tokenizer, pretraining, SFT, GRPO) · RAG · LoRA/PEFT fine-tuning · agents · evaluation and guardrails
+- **Machine learning** — scikit-learn · TensorFlow · XGBoost · CNNs · LSTMs
+- **Languages** — Python · TypeScript · SQL · Java · C# · C/C++
+- **Backend & data** — FastAPI · ASP.NET Core · Postgres + pgvector · Redis · SQLAlchemy
+- **Cloud & DevOps** — AWS (Bedrock, Lambda, Step Functions, EventBridge, CloudWatch, CodeBuild, CDK) · Azure · OCI · Databricks · Docker · CI/CD
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/himanshu-nakrani/himanshu-nakrani/main/assets/contributions-dark.svg?v=2026-10-23">
